@@ -25,11 +25,14 @@ function start() {
     }
 
     function updateChords() {
-        var currentChar = chords.pickChord();
+        const currentChord = chords.pickChord();
         
         document.getElementById("last-chord").innerText = chords.lastChord();
-        document.getElementById("current-chord").innerText = currentChar;
+        document.getElementById("current-chord").innerText = currentChord;
         document.getElementById("next-chord").innerText = chords.nextChord();
+
+        const elChordHint = document.getElementById("chord-hint");
+        elChordHint.setAttribute('style', `background-image: url(img/${currentChord}.png);`);
     }
 }
 
