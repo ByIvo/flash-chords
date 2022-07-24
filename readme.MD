@@ -1,6 +1,6 @@
 # Flash Chords
 
-[https://byivo.github.io/flash-chords/?bpm=60](Try it!)
+[Try it!](https://byivo.github.io/flash-chords?bpm=60)
 
 ## Goals
 
@@ -14,5 +14,5 @@ It shows random chords, so you can play within any BPM rate you want
 
 BPM is beats per second; You can change that by adding the parameter `?bpm=ANY_NUMBER`.
 
-The default is 60 BPM, but you set it to any value you want (e.g. [https://byivo.github.io/flash-chords/?bpm=200](https://byivo.github.io/flash-chords/?bpm=200)
+The default is 60 BPM, but you set it to any value you want (e.g. [https://byivo.github.io/flash-chords/?bpm=200](https://byivo.github.io/flash-chords/?bpm=200))
 
