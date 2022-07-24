@@ -1,0 +1,75 @@
+#screen {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#chords {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: center;
+}
+
+#chords > span {
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#last-chord {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    text-align: left;
+    color: gray;
+}
+
+#current-chord {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8em;
+    text-align: center;
+}
+
+#next-chord {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5em;
+    text-align: right;
+    color: gray;
+}
+
+#beats {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.beat {
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.beat::after {
+    content: "●";
+    color: gray;
+    font-size: 5em;
+}
+
+.beat-up {
+    transform: scale(2);
+}
